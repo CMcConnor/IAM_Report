@@ -1,0 +1,25 @@
+----------Users----------
+UserName,Group,Policy
+amplify-Qu3iU,,AdministratorAccess
+ConnorMcCrory,AdministratorGroup
+ConnorMcCrory,,AWSCodeCommitFullAccess
+----------Groups----------
+GroupName,AWS Managed Policies,Custom Policies
+AdministratorGroup,IAMFullAccess
+AdministratorGroup,AdministratorAccess
+----------Roles----------
+Role Name,AWS Managed Policies,Managed Policies
+AdminSAML,AdministratorAccess,
+AWSAmplifyExecutionRole-d3y48nft90unc,AWSAmplifyExecutionPolicy-d3y48nft90unc,
+AWSServiceRoleForOrganizations,AWSOrganizationsServiceTrustPolicy,
+AWSServiceRoleForSSO,AWSSSOServiceRolePolicy,
+AWSServiceRoleForSupport,AWSSupportServiceRolePolicy,
+AWSServiceRoleForTrustedAdvisor,AWSTrustedAdvisorServiceRolePolicy,
+TwitterSentiment,AWSLambdaFullAccess,
+TwitterSentiment,AmazonS3FullAccess,
+TwitterSentiment,ComprehendFullAccess,
+TwitterSentiment,AmazonKinesisFullAccess,
+TwitterSentiment,CloudWatchLogsFullAccess,
+TwitterSentiment,AmazonKinesisFirehoseFullAccess,
+us-east-2_iULXgrubY_Full-access,AdministratorAccess-Amplify,
+us-east-2_m5tjgFsXa_Full-access,AdministratorAccess-Amplify,
